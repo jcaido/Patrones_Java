@@ -1,4 +1,4 @@
-package builder;
+package builder.enemy;
 
 public class TestBuilder {
 
