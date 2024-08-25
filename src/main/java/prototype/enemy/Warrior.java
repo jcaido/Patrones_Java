@@ -1,4 +1,4 @@
-package prototype;
+package prototype.enemy;
 
 public class Warrior extends Enemy{
 

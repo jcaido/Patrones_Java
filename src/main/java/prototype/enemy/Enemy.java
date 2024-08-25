@@ -1,4 +1,4 @@
-package prototype;
+package prototype.enemy;
 
 public abstract class Enemy {
 
