@@ -2,7 +2,11 @@ package adapter;
 
 public class DragonAdapter implements Enemy{
 
-    private Dragon dragon = new Dragon();
+    private Dragon dragon;
+
+    public DragonAdapter() {
+        this.dragon = new Dragon();
+    }
 
     @Override
     public void attack() {
