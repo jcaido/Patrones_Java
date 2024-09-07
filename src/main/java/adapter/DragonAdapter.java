@@ -4,8 +4,11 @@ public class DragonAdapter implements Enemy{
 
     private Dragon dragon;
 
-    public DragonAdapter() {
-        this.dragon = new Dragon();
+    //public DragonAdapter() {
+    //    this.dragon = new Dragon();
+    //}
+    public DragonAdapter(Dragon dragon) {
+        this.dragon = dragon;
     }
 
     @Override
